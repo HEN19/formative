@@ -1,0 +1,12 @@
+Hindu Employee: 01 February 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 March 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 April 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 May 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 June 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 July 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 August 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 September 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 October 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 November 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 December 2024 00:00:00 - 5,000,000.00 = Monthly
+Hindu Employee: 01 January 2025 00:00:00 - 5,000,000.00 = Monthly

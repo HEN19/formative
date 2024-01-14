@@ -1,12 +1,25 @@
-
 public class PaycheckSystem {
     public static void main(String[] args) {
-        Employee karyawan0Thread = new Employee("karyawan1", 5000000, "1 February 2024");
-        Employee karyawan1Thread = new Employee("karyawan2", 8000000, "1 March 2024");
-        Employee karyawan2Thread = new Employee("karyawan3", 12000000, "1 April 2024");
+        // Creating Employee instances with different religions
+        Employee muslimEmployee = new Employee("Muslim Employee", 5000000, "1 February 2024", "Islam");
+        Employee christianEmployee = new Employee("Christian Employee", 5000000, "1 February 2024", "Christianity");
+        Employee hinduEmployee = new Employee("Hindu Employee", 5000000, "1 February 2024", "Hinduism");
+        Employee buddhistEmployee = new Employee("Buddhist Employee", 5000000, "1 February 2024", "Buddhism");
 
-        karyawan0Thread.start();
-        karyawan1Thread.start();
-        karyawan2Thread.start();
+        // Start the threads
+        muslimEmployee.start();
+        christianEmployee.start();
+        hinduEmployee.start();
+        buddhistEmployee.start();
+
+        try {
+            // Wait for threads to finish
+            muslimEmployee.join();
+            christianEmployee.join();
+            hinduEmployee.join();
+            buddhistEmployee.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
